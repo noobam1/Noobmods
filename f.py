@@ -80,7 +80,7 @@ async def noob(update: Update, context: CallbackContext):
 
     user = await get_user(target_user_id)
 
-    if command == 'add':
+    if command == 'noob':
         new_balance = user["coins"] + coins
         await update_user(target_user_id, new_balance)
         await context.bot.send_message(chat_id=chat_id, text=f"*✅ Added {coins} coins to user {target_user_id}. New balance: {new_balance}.*", parse_mode='Markdown')
