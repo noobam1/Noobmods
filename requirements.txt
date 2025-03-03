@@ -1,0 +1,7 @@
+pymongo
+python-telegram-bot
+pyTelegramBotAPI
+certifi
+pytz
+AsyncIOMotorClient
+python3 -m pip install motor
